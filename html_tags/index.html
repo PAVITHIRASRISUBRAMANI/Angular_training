@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Html javatpoint</title>
+        <script type="text/javascript">function msg(){    
+            alert("Hello angular_training");    
+           }   
+        </script>
+    </head>
+    <body>
+        <section>
+            <h1>HTML</h1>
+            <div>
+                <h2>HTML-TAGS</h2>
+                    <h3>html marquee</h3>
+                        <marquee>books and coffee together makes the best pair</marquee>
+                    <h3>html quotes</h3>
+                        <q>Live and let live</q>
+                        <blockquote>according to bbc</blockquote>
+                    <h3>html style</h3>
+                        <h4 style="color:crimson">Crimson dragon</h4>
+                        <h4 style="background-color: darkgrey;">Grey is my fav color</h4>
+                        <h4 style="font-size: 1em;">I am 1em</h4>
+                        <h4 style="font-family: 'Courier New', Courier, monospace;">I am font family</h4>
+                        <h4 style="text-align: right; background-color: darkkhaki;">I am text-align</h4>
+                    <h3>html pre</h3>
+                        <pre>This is pre tag
+                                example. can also add java code
+                        </pre>
+                    <h3>html code</h3>
+                        <p> This page <em>demonstrates</em> an <b>idea</b> for how <code>progress</code> can be 
+                        <dfn>visualized<dfn>,<br> <var>inside the</var> <strong>standard page</strong></p>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h3>html hr</h3><hr/>
+            </div>
+        </section>  
+        <section>
+            <div>
+                <h3>Html input</h3>
+                <form action="#">  
+                    Name: <input type="text" name="Name"  placeholder="enter name"><br>  
+                    Age: <input type="nimber" name="Age" placeholder="enter age"><br> 
+                    <input type="submit" value="Submit">  
+                </form> 
+            </div>
+            <div>
+                <h3>Html button</h3>
+                <button name="button" type="button">Click me</button>  
+            </div>
+        </section>
+        <article>
+            <h2>html tag part-2</h2>
+            <div>
+                <h3>html audio</h3>
+                <audio controls>  
+                    <source src="audio/koyal.mp3" type="audio/mpeg">  
+                </audio> 
+            </div>
+            <div>
+                <h3>html data</h3>
+                <ul>  
+                    <li><data value="101">Error in audio file</data></li>  
+                    <li><data value="111">green u</data></li>  
+                    <li><data value="121">ask sir</data></li>  
+                </ul>
+            </div>
+            <div>
+                <h3>html meter</h3>
+                <p>Water level</p>  
+                    <meter value="40" min="1" max="100">40 out of 100</meter><br>  
+                    <meter value="0.7">70%</meter>
+            </div>
+            <div>
+                <h3>html img & figure caption</h3>
+                <img src="img/puppy.jpg" alt="puppy" width="400" height="250" >
+                <figcaption>Fig:1- puppy</figcaption>
+            </div>
+        </article>
+        <article>
+            <h3>html google-map</h3> 
+            <div id="map" style="width:400px;height:400px;"></div>
+            <script>
+                function myMap() {
+                var mapOptions = {
+                    center: new google.maps.LatLng(51.5, -0.12),
+                    zoom: 10,
+                    mapTypeId: google.maps.MapTypeId.HYBRID
+                }
+                var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+                }
+                </script>
+                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap">
+                </script>
+        </article> 
+    </body>
+    <footer>
+        <p>hereby tried html tags, semantics etc are done<p>
+        <h3>Query: what is u in green means in angular</h3>
+        <p>copyright &copy; 2021</p>
+    </footer>
+</html>
